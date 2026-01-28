@@ -12,10 +12,16 @@ A Claude Code custom skill that transforms rough prompts/ideas into production-r
 
 ## Installation
 
-Clone into your Claude Code custom skills directory:
+### Via npm (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/prompt-engineer-skill.git \
+npm install -g prompt-engineer-skill
+```
+
+### Via git
+
+```bash
+git clone https://github.com/repo-phuocdt/prompt-engineer-skill.git \
   ~/.claude/custom-skills/prompt-engineer
 ```
 
