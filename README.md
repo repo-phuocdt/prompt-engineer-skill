@@ -12,10 +12,16 @@ A Claude Code custom skill that transforms rough prompts/ideas into production-r
 
 ## Installation
 
-### Via npm (recommended)
+### Via npx (recommended)
 
 ```bash
-npm install -g prompt-engineer-skill
+npx prompt-engineer-skill
+```
+
+Custom install path:
+
+```bash
+npx prompt-engineer-skill --path ~/.claude/custom-skills/prompt-engineer
 ```
 
 ### Via git
@@ -23,6 +29,12 @@ npm install -g prompt-engineer-skill
 ```bash
 git clone https://github.com/repo-phuocdt/prompt-engineer-skill.git \
   ~/.claude/skills/prompt-engineer
+```
+
+### Uninstall
+
+```bash
+npx prompt-engineer-skill --uninstall
 ```
 
 ## Usage
