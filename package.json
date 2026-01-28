@@ -1,5 +1,5 @@
 {
-  "name": "prompt-engineer-skill",
+  "name": "@repo-phuocdt/prompt-engineer-skill",
   "version": "1.0.0",
   "description": "Claude Code skill: transform rough prompts/ideas into production-ready LLM prompts with CoT, Constitutional AI, RAG optimization, and multi-model support",
   "scripts": {
@@ -36,6 +36,9 @@
     "url": "https://github.com/repo-phuocdt/prompt-engineer-skill/issues"
   },
   "homepage": "https://github.com/repo-phuocdt/prompt-engineer-skill#readme",
+  "publishConfig": {
+    "@repo-phuocdt:registry": "https://npm.pkg.github.com"
+  },
   "engines": {
     "node": ">=14.0.0"
   }
