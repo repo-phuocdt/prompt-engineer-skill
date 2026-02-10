@@ -12,7 +12,15 @@ A Claude Code custom skill that transforms rough prompts/ideas into production-r
 
 ## Installation
 
-### Via npx (recommended)
+### Via skills CLI (recommended)
+
+Requires [skills](https://github.com/vercel-labs/skills) CLI:
+
+```bash
+npx skills add repo-phuocdt/prompt-engineer-skill
+```
+
+### Via npx (standalone)
 
 ```bash
 npx prompt-engineer-skill
@@ -34,6 +42,10 @@ git clone https://github.com/repo-phuocdt/prompt-engineer-skill.git \
 ### Uninstall
 
 ```bash
+# If installed via skills CLI
+npx skills remove prompt-engineer
+
+# If installed via npx standalone
 npx prompt-engineer-skill --uninstall
 ```
 
